@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Net;
 using System.Numerics;
 using System.Security.Cryptography;
@@ -12,10 +13,17 @@ namespace PrimeGen
     {
         static void Main(string[] args)
         {
-            if (args.Length >= 1)
+            if (args.Length >= 1 && args.Length < 3)
             {
                 var genPrimeNum = new PrimeNum();
-                genPrimeNum.findPrimeNum(Int32.Parse(args[1]));
+                if (args.Length == 1)
+                {
+                    genPrimeNum.findPrimeNumSeqential(Int32.Parse(args[0]));
+                }
+                else
+                {
+                    genPrimeNum.findPrimeNumSeqential(Int32.Parse(args[0]), Int32.Parse(args[1]));
+                }
             }
             else
             {
@@ -47,7 +55,7 @@ namespace PrimeGen
             rngCsp.GetBytes(bytes);
             var num = new BigInteger(bytes);
             num = BigInteger.Abs(num);
-            if (!num.IsEven)
+            if (!num.IsEven && num.IsProbablyPrime())
             {
                 return num;
             }
@@ -68,9 +76,21 @@ namespace PrimeGen
             {
                 Parallel.For(1, 10, i =>
                 {
-                    
+                    generateNum(bitLen);
                 });
             }
+        }
+        public void findPrimeNumSeqential(int bitLen, int numOfPrime = 1)
+        {
+            var timer = new Stopwatch();
+            timer.Start();
+            for (int i = 0; i < numOfPrime; i++)
+            {
+                var num = generateNum(bitLen);
+                Console.WriteLine("{0}: {1}", i, num);
+            }
+            timer.Stop();
+            Console.WriteLine(timer.Elapsed);
         }
         
     }

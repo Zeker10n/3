@@ -7,8 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="Started work on program">
+    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="adding parallel functions">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Tristan/RiderProjects/PrimeGen/PrimeGen/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zPst9CztNZfg2pqcgcxkYYRb3F" />
@@ -51,7 +59,7 @@
   <component name="RunManager">
     <configuration name="Program" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1024 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -77,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634061271735</updated>
       <workItem from="1634061281685" duration="27504000" />
-      <workItem from="1634102609633" duration="843000" />
+      <workItem from="1634102609633" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="Started work on program">
       <created>1634102649651</created>
@@ -86,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634102649651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding parallel functions">
+      <created>1634103482463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634103482463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Started work on program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on program" />
+    <MESSAGE value="adding parallel functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding parallel functions" />
   </component>
 </project>
