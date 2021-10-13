@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Net;
 using System.Numerics;
 using System.Security.Cryptography;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.VisualBasic.CompilerServices;
 
@@ -15,14 +16,21 @@ namespace PrimeGen
         {
             if (args.Length >= 1 && args.Length < 3)
             {
-                var genPrimeNum = new PrimeNum();
-                if (args.Length == 1)
+                if (Int32.Parse(args[0]) % 8 == 0)
                 {
-                    genPrimeNum.findPrimeNumSeqential(Int32.Parse(args[0]));
+                    var genPrimeNum = new PrimeNum();
+                    if (args.Length == 1)
+                    {
+                        genPrimeNum.setupGen(Int32.Parse(args[0]));
+                    }
+                    else
+                    {
+                        genPrimeNum.setupGen(Int32.Parse(args[0]), Int32.Parse(args[1]));
+                    }
                 }
                 else
                 {
-                    genPrimeNum.findPrimeNumSeqential(Int32.Parse(args[0]), Int32.Parse(args[1]));
+                    helpMsg();
                 }
             }
             else
@@ -40,6 +48,7 @@ namespace PrimeGen
 
     class PrimeNum
     {
+        public static object myLock = new Object();
         private int _numOfExec;
 
         public PrimeNum()
@@ -55,31 +64,70 @@ namespace PrimeGen
             rngCsp.GetBytes(bytes);
             var num = new BigInteger(bytes);
             num = BigInteger.Abs(num);
-            if (!num.IsEven && num.IsProbablyPrime())
+            if (!num.IsEven)
             {
                 return num;
             }
 
-            return generateNum(bitLen);
+            return -1;
         }
 
-        public void findPrimeNum(int bitLen, int numOfPrime = 1)
+        public void findPrimeNum(int bitLen, int numOfPrime)
         {
-            if (numOfPrime > 1)
-            {
-                Parallel.For(1, numOfPrime, i =>
+            CancellationTokenSource cts = new CancellationTokenSource();
+            // Use ParallelOptions instance to store the CancellationToken
+            ParallelOptions po = new ParallelOptions();
+            po.CancellationToken = cts.Token;
+            try {
+                Parallel.For(0, Int32.MaxValue, po, i =>
                 {
-                    findPrimeNum(bitLen);
+                    var num = generateNum(bitLen);
+                    if (num != -1)
+                    {
+                        if (num.IsProbablyPrime())
+                        {
+                            lock (myLock)
+                            {
+                                if (_numOfExec > numOfPrime)
+                                {
+                                    cts.Cancel();
+                                    po.CancellationToken.ThrowIfCancellationRequested();
+                                }
+                                else if (_numOfExec < numOfPrime)
+                                {
+                                    Console.WriteLine("{0}: {1}", _numOfExec, num);
+                                    Console.Write("\n");
+                                    _numOfExec++;
+                                }
+                                else if (_numOfExec == numOfPrime)
+                                {
+                                    Console.WriteLine("{0}: {1}", _numOfExec, num);
+                                    _numOfExec++;
+                                }
+                                
+                            }
+                        }
+                    }
                 });  
             }
-            else
+            catch (OperationCanceledException e)
+            { 
+            }
+            finally
             {
-                Parallel.For(1, 10, i =>
-                {
-                    generateNum(bitLen);
-                });
+                cts.Dispose();
             }
         }
+
+        public void setupGen(int bitLen, int numOfPrime = 1)
+        {
+            var timer = new Stopwatch();
+            timer.Start();
+            findPrimeNum(bitLen, numOfPrime);
+            timer.Stop();
+            Console.WriteLine("Time to Generate: {0}", timer.Elapsed);
+        }
+        
         public void findPrimeNumSeqential(int bitLen, int numOfPrime = 1)
         {
             var timer = new Stopwatch();

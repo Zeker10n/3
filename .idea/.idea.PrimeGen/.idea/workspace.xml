@@ -11,11 +11,27 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/PrimeGen.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/PrimeGen.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/PrimeGen.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/PrimeGen.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +50,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Tristan/RiderProjects/PrimeGen/PrimeGen/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zPst9CztNZfg2pqcgcxkYYRb3F" />
@@ -59,7 +74,7 @@
   <component name="RunManager">
     <configuration name="Program" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" />
-      <option name="PROGRAM_PARAMETERS" value="1024 2" />
+      <option name="PROGRAM_PARAMETERS" value="2048 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -86,6 +101,7 @@
       <updated>1634061271735</updated>
       <workItem from="1634061281685" duration="27504000" />
       <workItem from="1634102609633" duration="2143000" />
+      <workItem from="1634126013833" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Started work on program">
       <created>1634102649651</created>
