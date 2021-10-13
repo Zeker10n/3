@@ -36,7 +36,7 @@ namespace PrimeGen
 
         public PrimeNum()
         {
-            _numOfExec = 0;
+            _numOfExec = 1;
         }
 
         public BigInteger generateNum(int bitLen)
@@ -61,15 +61,15 @@ namespace PrimeGen
             {
                 Parallel.For(1, numOfPrime, i =>
                 {
-                
+                    findPrimeNum(bitLen);
                 });  
             }
             else
             {
                 Parallel.For(1, 10, i =>
                 {
-                
-                }); 
+                    
+                });
             }
         }
         
