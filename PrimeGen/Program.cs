@@ -58,9 +58,9 @@ namespace PrimeGen
         static void HelpMsg()
         {
             Console.WriteLine("dotnet run <bits> <count=1>");
-            Console.WriteLine("- bits - the number of bits of the prime number, " +
-                              "this must be a multiple of 8, and at least 32 bits.");
-            Console.WriteLine("- count - the number of prime numbers to generate, defaults to 1");
+            Console.WriteLine("- bits - the number of bits of the prime number, this must be a".PadLeft(67));
+            Console.WriteLine("multiple of 8, and at least 32 bits.".PadLeft(42));
+            Console.WriteLine("- count - the number of prime numbers to generate, defaults to 1".PadLeft(68));
         }
         
     }
