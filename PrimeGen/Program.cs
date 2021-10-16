@@ -45,6 +45,7 @@ namespace PrimeGen
             if (args.Length >= 1 && args.Length < 3)
             {
                 var bitlen = Int32.Parse(args[0]);
+                
                 if ( bitlen % 8 == 0 && bitlen >= 32)
                 {
                     var genPrimeNum = new PrimeNum();
@@ -54,7 +55,15 @@ namespace PrimeGen
                     }
                     else
                     {
-                        genPrimeNum.SetupGen(bitlen, Int32.Parse(args[1]));
+                        var numOfPrime = Int32.Parse(args[1]);
+                        if (numOfPrime > 0)
+                        {
+                            genPrimeNum.SetupGen(bitlen, numOfPrime);
+                        }
+                        else
+                        {
+                            Console.WriteLine(helpMsg);
+                        }
                     }
                 }
                 else
