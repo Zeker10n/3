@@ -7,9 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="Comments are added and program runs and generates the numbers.">
+    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="updated comments">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
   <component name="RunManager">
     <configuration name="Program" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="4096" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -81,7 +87,7 @@
       <workItem from="1634102609633" duration="2143000" />
       <workItem from="1634126013833" duration="6628000" />
       <workItem from="1634224182708" duration="5680000" />
-      <workItem from="1634314848237" duration="13243000" />
+      <workItem from="1634314848237" duration="16955000" />
     </task>
     <task id="LOCAL-00001" summary="Started work on program">
       <created>1634102649651</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634342909505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated comments">
+      <created>1634343607390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634343607390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +143,7 @@
     <MESSAGE value="Started work on program" />
     <MESSAGE value="adding parallel functions" />
     <MESSAGE value="Comments are added and program runs and generates the numbers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments are added and program runs and generates the numbers." />
+    <MESSAGE value="updated comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated comments" />
   </component>
 </project>
