@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="adding parallel functions">
+    <list default="true" id="95576287-d331-4eaf-9c50-41e55325afb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrimeGen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.dll" afterDir="false" />
@@ -15,12 +15,10 @@
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/ref/PrimeGen.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeGen/obj/Debug/net5.0/PrimeGen.pdb" afterDir="false" />
@@ -74,7 +72,7 @@
   <component name="RunManager">
     <configuration name="Program" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0/PrimeGen.exe" />
-      <option name="PROGRAM_PARAMETERS" value="2048 2" />
+      <option name="PROGRAM_PARAMETERS" value="4096" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrimeGen/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -102,6 +100,8 @@
       <workItem from="1634061281685" duration="27504000" />
       <workItem from="1634102609633" duration="2143000" />
       <workItem from="1634126013833" duration="6628000" />
+      <workItem from="1634224182708" duration="5680000" />
+      <workItem from="1634314848237" duration="12545000" />
     </task>
     <task id="LOCAL-00001" summary="Started work on program">
       <created>1634102649651</created>

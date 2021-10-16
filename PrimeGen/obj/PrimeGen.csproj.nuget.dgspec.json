@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zeker10n\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj": {}
+    "C:\\Users\\Tristan\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zeker10n\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj": {
+    "C:\\Users\\Tristan\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zeker10n\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
+        "projectUniqueName": "C:\\Users\\Tristan\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
         "projectName": "PrimeGen",
-        "projectPath": "C:\\Users\\Zeker10n\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
-        "packagesPath": "C:\\Users\\Zeker10n\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zeker10n\\RiderProjects\\PrimeGen\\PrimeGen\\obj\\",
+        "projectPath": "C:\\Users\\Tristan\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
+        "packagesPath": "C:\\Users\\Tristan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tristan\\RiderProjects\\PrimeGen\\PrimeGen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zeker10n\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tristan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Zeker10n\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
